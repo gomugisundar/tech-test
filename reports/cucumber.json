@@ -1,0 +1,322 @@
+[
+  {
+    "description": "    Creating login in Tray.io feature and create a new workflow\n    and go back to Dashboard and Delete the previously created workflow\n    and logout of Tray.io",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "login;tray.io-customer-create-the-workflow-and-delete",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Tray.io customer Create the workflow and delete",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Customer on tray.io website",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4955000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Customer click login button",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 510000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Customer should presented with login page",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4629000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Customer enters their email \"gomuginanda@outlook.com\"",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Customer enters their password \"kamman123\"",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Customer clicks on login after entering login details",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Customer should presented with Dashboard page",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Customer Clicks the Create Workflow",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Customer get Create workflow pop up box",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Customer enters the name \"Gomugi\"",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Customer click create button",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Customer should presented with add a trigger page",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Customer  click alert in connectors from core list",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Customer should presented with build page",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "Click close",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Customer should presented with Dashboard page",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1202000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "Customer select Gomugi hamburger menu",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 649000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Customer click delete button",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Customer get pop up box delete work flow",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 538000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "Click yes",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 583000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Customer click profile head",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 588000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Click logout",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 624000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Automatically navigate to login page",
+            "match": {
+              "location": "login/node_modules/cucumber/lib/support_code_library_builder/define_helpers.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 578000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
